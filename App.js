@@ -1,20 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import 'react-native-gesture-handler';
+import { StyleSheet, View } from 'react-native';
+import Routes from './src/appRoutes';
+import { SecurityContext } from './src/context/SecurityContext';
+import FlashMessage from 'react-native-flash-message';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SecurityContext>
+      <View style={styles.container}>
+        <Routes />
+        <FlashMessage position="top" />
+      </View>
+    </SecurityContext>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    position: 'relative',
+    marginTop: 10
   },
 });

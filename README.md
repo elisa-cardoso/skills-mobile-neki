@@ -18,4 +18,5 @@ Este projeto é uma aplicação mobile desenvolvida com React Native, que oferec
 - Async Storage
 - Lottie (para a animação)
 
-*Para visualizar o resultado do projeto acesse o link* -> https://drive.google.com/file/d/1tJ07oIol7BFXgR8Uz-zmYElpGQlOuexQ/view?usp=sharing
+
+ *Para visualizar o projeto acesse o link* → https://drive.google.com/file/d/17IpVs0sJTlyVs4o7_R5ZxDaL7oUoF8TE/view ٩(◕‿◕｡)۶

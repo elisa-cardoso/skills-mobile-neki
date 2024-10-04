@@ -17,3 +17,5 @@ Este projeto é uma aplicação mobile desenvolvida com React Native, que oferec
 - Axios (para chamadas de API)
 - Async Storage
 - Lottie (para a animação)
+
+*Para visualizar o resultado do projeto acesse o link* -> https://drive.google.com/file/d/1tJ07oIol7BFXgR8Uz-zmYElpGQlOuexQ/view?usp=sharing
